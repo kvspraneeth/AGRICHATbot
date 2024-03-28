@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1x6nj6FVHwQDucH0LD-skTOqRwKkDuwCZ
 """
 
-pip install -q -U google-generativeai
+#pip install -q -U google-generativeai
 
-pip install gradio
+#pip install gradio
 
 import gradio as gr
 import os
