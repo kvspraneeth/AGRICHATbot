@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1x6nj6FVHwQDucH0LD-skTOqRwKkDuwCZ
 """
 
-!pip install -q -U google-generativeai
+pip install -q -U google-generativeai
 
 pip install gradio
 
@@ -44,7 +44,7 @@ iface = gr.ChatInterface(
 )
 
 if __name__ == '__main__':
-  iface.launch(debug=True)
+  iface.launch(debug=False)
 
 #!git config --global credential.helper store
 
