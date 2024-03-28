@@ -15,8 +15,8 @@ import gradio as gr
 import os
 import google.generativeai as genai
 
-import google.generativeai as genai
-from google.colab import userdata
+#import google.generativeai as genai
+#from google.colab import userdata
 
 #GOOGLE_API_KEY=userdata.get('G-API_key2')
 #genai.configure(api_key=GOOGLE_API_KEY)
