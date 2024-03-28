@@ -43,8 +43,8 @@ iface = gr.ChatInterface(
   clear_btn=None
 )
 
-if __name__ == '__main__':
-  iface.launch(debug=True)
+#f __name__ == '__main__':
+iface.launch(debug=True)
 
 #!git config --global credential.helper store
 
