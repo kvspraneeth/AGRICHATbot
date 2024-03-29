@@ -33,7 +33,7 @@ def gemini_chat(message, history):
 iface = gr.ChatInterface(
   fn=gemini_chat,
   title='AGRI-CHAT : Your Personal AI powered Chatbot, built for Agriculture/Farming related queries',
-  chatbot=gr.Chatbot(height=200),
+  chatbot=gr.Chatbot(height=400),
   textbox=gr.Textbox(
     placeholder="What's your question? Please type here!!",
     scale=7
